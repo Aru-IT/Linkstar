@@ -37,7 +37,7 @@
     if (!recId) {
       show('Invalid link', 'Record ID missing hai.', '#C62828', '\u2715');
     } else {
-      var url = 'https://www.zohoapis.com/crm/v7/functions/approval_decision/actions/execute'
+      var url = 'https://www.zohoapis.com/crm/v7/functions/RejectApprovals/actions/execute'
         + '?auth_type=apikey&zapikey=' + encodeURIComponent(API_KEY)
         + '&recId=' + encodeURIComponent(recId)
         + '&decision=Rejected';
